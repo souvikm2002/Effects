@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.bg{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+#particles-js{
+    position: relative;
+    height: 100vh;
+    background:#fff ;
+    mix-blend-mode: screen;
+}
+
+.text{
+    position: absolute;
+    z-index: 1;
+    color: rgb(5, 5, 5);
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.paragraph{
+    color: rgb(38, 0, 255);
+    font-size: x-large;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    font-weight: bold;
+    font-family: monospace;
+}
