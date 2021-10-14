@@ -30,12 +30,14 @@ section{
 .text{
     position: absolute;
     z-index: 1;
-    color: rgb(5, 5, 5);
+    color: rgba(29, 4, 4, 0.836);
     font-size: xx-large;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 5%;
+    font-family:'Poppins', sans-serif;
+    margin-top: 4%;
     margin-left: 50%;
     transform: translate(-50%);
+    font-weight: bold;
+    width: 50%;
 }
 
 .paragraph{
